@@ -11,5 +11,5 @@ RUN wget https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/eha
 RUN unzip conf.zip -d /
 
 # Expose port 
-EXPOSE 8024,80,443,8081,8082,8083,8084,8085,8086,8087,8088,8089,8090
-RUN
+#EXPOSE 8024,80,443,8081,8082,8083,8084,8085,8086,8087,8088,8089,8090
+#RUN

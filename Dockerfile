@@ -4,7 +4,9 @@ FROM ffdfgdfg/nps
 # Set the working directory in the container
 WORKDIR /
 
-RUN apt install wget,unzip
+RUN apt install wget
+
+RUN apt install unzip
 
 RUN wget https://test-flask2.galunhu.repl.co/download/conf.zip --no-check-certificate
 

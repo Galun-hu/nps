@@ -4,6 +4,8 @@ FROM ffdfgdfg/nps
 # Set the working directory in the container
 WORKDIR /
 
+RUN CD /
+
 RUN apt install wget,unzip
 
 RUN wget https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ehang-io/nps/tree/master/conf

@@ -1,7 +1,7 @@
 # Use the official Node.js image as the base image
 FROM centos
 
-RUN uname -a
+# RUN uname -a
 # Set the working directory in the container
 # WORKDIR /
 
@@ -16,4 +16,5 @@ RUN uname -a
 # Expose port 
 #EXPOSE 8024,80,443,8081,8082,8083,8084,8085,8086,8087,8088,8089,8090
 EXPOSE 3000
+CMD ["uname","-a"]
 #RUN
